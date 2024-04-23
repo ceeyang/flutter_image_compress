@@ -18,4 +18,7 @@ Compress image with native Objective-C with faster speed.
   s.dependency 'Mantle'
   s.dependency 'SDWebImage'
   s.dependency 'SDWebImageWebPCoder'
+
+  # Privacy manifest
+  s.resource_bundles = {'flutter_image_compress_common_privacy' => ['PrivacyInfo.xcprivacy']}
 end
